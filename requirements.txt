@@ -1,6 +1,6 @@
 streamlit==1.35.0
 pandas
-numpy
+numpy<2
 chromadb
 sentence-transformers
 groq
@@ -8,4 +8,3 @@ fastapi
 uvicorn
 torch==2.9.0
 transformers
-pillow>=11.0.0
